@@ -7,7 +7,7 @@ empno, empname, address and age */
 
 #include <stdio.h>
 
-typedef struct {
+struct {
     int empno;
     char empname[50];
     char address[100];
